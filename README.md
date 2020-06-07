@@ -5,7 +5,7 @@ This repository contains examples of SQL queries, which is an extension of Proje
 The first 4 queries belong to the aformention project, however more complex queries were added aftewards.
 
 ## Results of the queries from the Udacity Project
-The queries to obtain the following results can be seen in teh followin [link](https://github.com/npuente/SQL-queries/blob/master/Queries). They were coded using the [DB Browser for SQLite](http://sqlitebrowser.org/). The methodology used consists on developin a query whose results would answer a particular question. The data obtained will then be used to obtain a visualization that can be analyzed.
+The queries to obtain the following results can be seen in teh followin [link](https://github.com/npuente/SQL-queries/blob/master/Queries). They were coded using the [DB Browser for SQLite](http://sqlitebrowser.org/). The methodology used consists on developin a query whose results would answer a particular question. The data obtained will then be used to obtain a visualization that can be analyzed. This visualization is built in Excel using an extracted csv file for each query that can be found [here](https://github.com/npuente/SQL-queries/tree/master/data_from_queries).
 
 ### Query 1: What Sales Reps has the biggest number of accounts?
 ![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q1.png?raw_true)
