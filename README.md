@@ -12,6 +12,7 @@ The queries to obtain the following results can be seen in the following [link](
 
 Georgianna Chisholm has the most accounts with 15.
 After the drop from 15 to 11 the amount of accounts is pretty even. While I am only showing the top 10 here when I ran the query without a limit Brandie Riva, Hilma Busick, and Arica Stoltzfus also had 10 accounts.
+Note: the name of the Sales Reps was concatenated on a single data field using Excel, but this could be done directly on the query using the CONCAT function.
 
 ### Query 2: How many Sales Reps are there per Region?
 ![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q2.png?raw_true)
@@ -29,6 +30,10 @@ These accounts do not waste the companies time with small orders.
 
 The Northeast had the highest total order amount at $7,744,405.36.
 
-## Results of advanced queries.
+## Results of advanced queries (using subqueries).
+### Query 5: What is the most popular music Genre for each country?
 
+### Query 6: What are the track that have a song length longer than the average song length?
+
+### Query 7: Who is customer that has spent the most on music for each country?
 
