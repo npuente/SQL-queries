@@ -1,4 +1,4 @@
-``
+```
 /* Query 1 */
 SELECT s.id, s.name, COUNT(*) AS "Number of Accounts"
 FROM accounts a
@@ -7,7 +7,7 @@ ON s.id = a.sales_rep_id
 GROUP BY s.id, s.name
 ORDER BY 3 desc
 LIMIT 10;
-``
+```
 
 ``
 /* Query 2 */
