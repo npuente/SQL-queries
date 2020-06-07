@@ -9,17 +9,24 @@ The queries to obtain the following results can be seen in teh followin [link](h
 
 ### Query 1: What Sales Reps has the biggest number of accounts?
 ![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q1.png?raw_true)
+
 Georgianna Chisholm has the most accounts with 15.
 After the drop from 15 to 11 the amount of accounts is pretty even. While I am only showing the top 10 here when I ran the query without a limit Brandie Riva, Hilma Busick, and Arica Stoltzfus also had 10 accounts.
 
 ### Query 2: How many Sales Reps are there per Region?
+![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q2.png?raw_true)
+
 There are 21 reps in the Northeast, there are 10 reps in the Southeast and West, and there are 9 reps in the Midwest.
 
 ### Query 3: Which Accounts had the largest smallest order?
+![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q3.png?raw_true)
+
 CBS’s had the largest smallest order of $8648.07
 These accounts do not waste the companies time with small orders.
 
 ### Query 4: What region had the highest total order amount?
+![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q4.png?raw_true)
+
 The Northeast had the highest total order amount at $7,744,405.36.
 
 ## Results of advanced queries.
