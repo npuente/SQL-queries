@@ -38,4 +38,17 @@ JOIN region r
 ON s.region_id = r.id
 GROUP BY 1
 ORDER BY 2 desc;
-``
+
+/* Query 5*/
+
+
+/* Query 6*/
+SELECT Name, Milliseconds FROM (
+	SELECT t.Name, t.Milliseconds, (SELECT AVG(Milliseconds) FROM Track) AS AvgLenght
+	FROM Track t
+	WHERE AvgLenght < t.Milliseconds
+	ORDER BY t.Milliseconds DESC
+);
+
+
+/* Query 7*/
