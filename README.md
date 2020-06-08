@@ -44,5 +44,5 @@ There are 494 songs with a length longer than the average song length. These are
 ### Query 7: Who is customer that has spent the most on music for each country?
 These are the customer that have spent the most on music for each country:
 
-![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q7.PNG?raw_true)
+![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q7.png?raw_true)
 
