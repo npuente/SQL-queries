@@ -32,6 +32,9 @@ The Northeast had the highest total order amount at $7,744,405.36.
 
 ## Results of advanced queries (using subqueries).
 ### Query 5: What is the most popular music Genre for each country?
+This is the least obtained:
+
+![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q5.png?raw_true)
 
 ### Query 6: What are the track that have a song length longer than the average song length?
 
