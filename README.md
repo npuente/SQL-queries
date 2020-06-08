@@ -39,7 +39,7 @@ This is the least obtained:
 ### Query 6: What are the track that have a song length longer than the average song length?
 There are 494 songs with a length longer than the average song length. These are the first results
 
-![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q6.png?raw_true)
+![alt text](https://github.com/npuente/SQL-queries/blob/master/Images/q6.PNG?raw_true)
 
 ### Query 7: Who is customer that has spent the most on music for each country?
 
