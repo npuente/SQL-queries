@@ -66,3 +66,11 @@ SELECT Name, Milliseconds FROM (
 
 
 /* Query 7*/
+SELECT country, FirstName, LastName, max(Spent) TotalSpent
+FROM(
+	SELECT c.FirstName,c.LastName, sum(i.total) as Spent, c.country
+	FROM Customer as c
+	JOIN Invoice as i
+	ON c.CustomerId=i.CustomerId
+	GROUP BY c. FirstName, c.LastName)
+GROUP BY country
