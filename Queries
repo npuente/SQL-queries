@@ -40,6 +40,20 @@ GROUP BY 1
 ORDER BY 2 desc;
 
 /* Query 5*/
+SELECT country, name, max(purchase) as purchases
+ FROM (SELECT count(il.UnitPrice) as purchase, c.country, g.name 
+	FROM genre as g
+	JOIN track as t
+	ON t.GenreId=g.GenreId
+	JOIN InvoiceLine as il
+	ON il.TrackId=t.TrackId
+	JOIN Invoice as i
+	ON i.InvoiceId=il.InvoiceId
+	JOIN Customer as c
+	ON c.CustomerId=i.CustomerId
+GROUP BY c.country, g.name
+ORDER BY c.Country, purchase DESC)
+GROUP BY Country;
 
 
 /* Query 6*/
